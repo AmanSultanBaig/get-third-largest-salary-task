@@ -21,7 +21,7 @@ function getThirdLargestSalary(arr) {
     // get unique salaries
     arr.filter(item => {
     	if(!uniqueArr.includes(item.salary)) {
-        	uniqueArr.push(item.salary)
+           uniqueArr.push(item.salary)
         }
     })
     
