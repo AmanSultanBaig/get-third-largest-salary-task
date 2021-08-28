@@ -14,10 +14,11 @@ let array = [
 ]
 
 function getThirdLargestSalary(arr) {
-	let uniqueArr = [];
+    let uniqueArr = [];
     let result = [];
     let thirdLargest = 0;
-	// get unique salaries
+    
+    // get unique salaries
     arr.filter(item => {
     	if(!uniqueArr.includes(item.salary)) {
         	uniqueArr.push(item.salary)
